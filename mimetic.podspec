@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "mimetic"
-  s.version      = "0.9.8"
+  s.version      = "0.9.8b"
   s.summary      = "Email library (MIME) written in C++."
   s.description  = "mimetic is a free Email library (MIME) written in C++ designed to be easy to use and integrate but yet fast and efficient."
   s.homepage     = "https://github.com/OliverLetterer/mimetic"
