@@ -10,6 +10,8 @@
 namespace mimetic
 {
 
+using namespace mimetic;
+
 unsigned int MessageId::ms_sequence_number = 0;
 
 /// pass the thread_id argument if you're using mimetic with threads
