@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/OliverLetterer/mimetic"
   s.license      = 'MIT'
   s.authors          = { "Stefano Barbato" => "stefano@codesink.org" }
-  s.platform     = :ios, '6.0'
-  s.source       = { :git => "https://github.com/OliverLetterer/mimetic.git", :tag => s.version.to_s }
+  s.platform     = :osx, '10.8'
+  s.source       = { :git => "https://github.com/dxdc/mimetic.git", :tag => s.version.to_s }
   s.source_files  = 'mimetic/*.{h,m,cxx}', 'mimetic/**/*.{h,m,cxx}'
   s.header_mappings_dir = 'mimetic'
   s.prefix_header_contents = '#include <unistd.h>', '#include <sys/stat.h>', "#define VERSION \"#{s.version.to_s}\""
