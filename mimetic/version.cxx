@@ -13,8 +13,6 @@
 
 namespace mimetic
 {
-using namespace std;
-using namespace mimetic;
 
 const Version version(VERSION);
 
