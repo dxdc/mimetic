@@ -8,6 +8,7 @@
 #include <mimetic/libconfig.h>
 #include <mimetic/version.h>
 #include <mimetic/utils.h>
+#include <mimetic/strutils.h>
 #include <mimetic/tokenizer.h>
 
 namespace mimetic

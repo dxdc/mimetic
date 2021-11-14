@@ -4,6 +4,7 @@
 
     $Id: utils.cxx,v 1.4 2008-10-07 15:43:55 tat Exp $
  ***************************************************************************/
+#include <mimetic/libconfig.h>
 #include <mimetic/utils.h>
 #include <sstream>
 #include <stdlib.h>
