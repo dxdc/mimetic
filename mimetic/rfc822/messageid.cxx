@@ -5,12 +5,15 @@
     $Id: messageid.cxx,v 1.4 2008-10-07 11:06:27 tat Exp $
  ***************************************************************************/
 #include <ctime>
+#include <mimetic/strutils.h>
+#include <mimetic/tokenizer.h>
 #include <mimetic/utils.h>
 #include <mimetic/rfc822/messageid.h>
 
 namespace mimetic
 {
 
+using namespace std;
 using namespace mimetic;
 
 unsigned int MessageId::ms_sequence_number = 0;

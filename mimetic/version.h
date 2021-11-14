@@ -8,6 +8,7 @@
 #define _MIMETIC_VERSION_H_
 #include <string>
 #include <iostream>
+#include <mimetic/strutils.h>
 
 namespace mimetic
 {
